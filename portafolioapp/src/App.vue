@@ -8,7 +8,7 @@
   >
     <div class="wrapper">
       <!-- Barra de navegacion superior -->
-      <b-navbar type="dark" style="background-color: #3a037d">
+      <b-navbar type="dark" style="background-color: #3a037d; font-size:16px">
         <b-navbar-nav>
           <!-- sidebar button -->
           <b-button
@@ -161,20 +161,20 @@
                   style="color: #000000; text-align: center"
                   >Cómputo I</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/introduccionalibrerias"
                   >S1 - Introducción a las librerías (Bootstrap y
                   Vue)</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/renderingydirectivas"
                   >S2 - Rendering y directivas</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/clasesestilostiemporeal"
                   >S3 - Clases y estilos en tiempo real</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/componentes"
                   >S4 - Componentes</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/comunicacioncomponentes"
                   >S5 - Comunicación entre componentes</b-list-group-item
                 >
                 <b-list-group-item

@@ -8,6 +8,11 @@ import ContenidosView from '../views/ContenidosView.vue'
 import JornalizacionView from '../views/JornalizacionView.vue'
 import CalendarizacionView from '../views/CalendarizacionView.vue'
 import MaterialApoyoView from '../views/MaterialApoyoView.vue'
+import SemanaUnoView from '../views/investigations/SemanaUnoView.vue'
+import SemanaDosView from '../views/investigations/SemanaDosView.vue'
+import SemanaTresView from '../views/investigations/SemanaTresView.vue'
+import SemanaCuatroView from '../views/investigations/SemanaCuatroView.vue'
+import SemanaCincoView from '../views/investigations/SemanaCincoView.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +56,32 @@ const routes = [
     path: "/materialesapoyo",
     name: "materialesapoyo",
     component: MaterialApoyoView
+  },
+  //rutas para las investigaciones
+  {
+    path: "/investigaciones/introduccionalibrerias",
+    name: "introduccionalibrerias",
+    component: SemanaUnoView
+  },
+  {
+    path: "/investigaciones/renderingydirectivas",
+    name: "renderingydirectivas",
+    component: SemanaDosView
+  },
+  {
+    path:"/investigaciones/clasesestilostiemporeal",
+    name: "clasesestilostiemporeal",
+    component: SemanaTresView
+  },
+  {
+    path:"/investigaciones/componentes",
+    name: "componentes",
+    component: SemanaCuatroView
+  },
+  {
+    path:"/investigaciones/comunicacioncomponentes",
+    name: "comunicacioncomponentes",
+    component: SemanaCincoView
   }
 ];
 
