@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <h1>Acerca de mí</h1>
     <about-component/>
   </div>
 </template>

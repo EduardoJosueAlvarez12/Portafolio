@@ -64,6 +64,9 @@
           <b-button class="w-100 btn btn-light" to="/asignatura" style="text-align: left"
             >Descripción de la asignatura</b-button
           >
+          <b-button class="w-100 btn btn-light" to="/contenidos" style="text-align: left"
+            >Contenidos</b-button
+          >
           <b-button class="w-100 btn btn-light" to="/jornalizacion" style="text-align: left"
             >Jornalización</b-button
           >

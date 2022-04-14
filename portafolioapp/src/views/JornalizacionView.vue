@@ -1,6 +1,5 @@
 <template>
     <div id="contenido">
-        <h1>Jornalización</h1>
         <jornalizacion-component/>
     </div>
 </template>

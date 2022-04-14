@@ -1,6 +1,5 @@
 <template>
     <div id="contenido">
-        <h1>Calendarización</h1>
         <calendarizacion-component/>
     </div>
 </template>
