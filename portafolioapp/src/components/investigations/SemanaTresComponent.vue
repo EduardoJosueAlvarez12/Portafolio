@@ -13,7 +13,7 @@
       <hr class="my-4" />
       <div style="margin: auto; width: 60%">
         <b-img
-          thumbnail
+          
           fluid
           src="https://events.vuejs.org/logo.png"
           alt="Header Image"

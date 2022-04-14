@@ -1,5 +1,5 @@
 <template>
-  <div id="root">
+  <div id="contenidos">
     <!-- titulo -->
     <b-jumbotron text-variant="white" style="background-color: #a19fe4">
       <template #image></template>

@@ -169,7 +169,7 @@
                   >S2 - Rendering y directivas</b-list-group-item
                 >
                 <b-list-group-item class="border-0 bg-light" to="/investigaciones/clasesestilostiemporeal"
-                  >S3 - Clases y estilos en tiempo real</b-list-group-item
+                  >S3 - Eventos, Clases y estilos en tiempo real</b-list-group-item
                 >
                 <b-list-group-item class="border-0 bg-light" to="/investigaciones/componentes"
                   >S4 - Componentes</b-list-group-item
@@ -182,22 +182,22 @@
                   style="color: #000000; text-align: center"
                   >Cómputo II</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/desarrollophp"
                   >S7 - Introducción al desarrollo con PHP</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/introduccionlaravel"
                   >S8 - Introducción a Laravel</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/crudlaravel"
                   >S9 - CRUD con Laravel</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/laravelrutascontroladores"
                   >S10 -Sistema de rutas y controladores</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/validacionlaravel"
                   >S11 - Validación de datos</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/investigaciones/apilaravel"
                   >S12 - REST API con Laravel</b-list-group-item
                 >
               </b-list-group>

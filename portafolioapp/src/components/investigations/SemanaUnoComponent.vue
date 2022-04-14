@@ -124,6 +124,8 @@
         <li>npm install -g @vue/cli</li>
       </ul>
 
+      <hr class="my-4" />
+
       <h2>¿Cuál es la importancia del uso de frameworks?</h2>
       <p>
         Los frameworks son herramientas extremadamente útiles para los
@@ -183,13 +185,28 @@
       <h2>Bibliografía</h2>
 
       <ul>
-          <li>Angular Minds. (22 de Octuubre de 2020). Top 10 VueJS Benefits For Web Application Development | Angular Minds. Obtenido de Angular Minds: https://www.angularminds.com/blog/article/top-10-features-of-vuejs-for-web-apps.html</li>
-          <li>Azam, S. (2021). What is Vue.js, and Why is it Cool? | linuxhint.com. Obtenido de linuxhint.com: https://linuxhint.com/about_vue_js/</li>
-          <li>Bootstrap. (2022). Download - Bootstrap. Obtenido de Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/download/</li>
-          <li>javaTpoint. (2022). What is Bootstrap - javaTpoint. Obtenido de javaTpoint: https://www.javatpoint.com/what-is-bootstrap</li>
-          <li>VueJS. (2022). Instalación - Vue.js. Obtenido de Vue.js: https://es.vuejs.org/v2/guide/installation.html</li>
+        <li>
+          Angular Minds. (22 de Octuubre de 2020). Top 10 VueJS Benefits For Web
+          Application Development | Angular Minds. Obtenido de Angular Minds:
+          https://www.angularminds.com/blog/article/top-10-features-of-vuejs-for-web-apps.html
+        </li>
+        <li>
+          Azam, S. (2021). What is Vue.js, and Why is it Cool? | linuxhint.com.
+          Obtenido de linuxhint.com: https://linuxhint.com/about_vue_js/
+        </li>
+        <li>
+          Bootstrap. (2022). Download - Bootstrap. Obtenido de Bootstrap:
+          https://getbootstrap.com/docs/5.1/getting-started/download/
+        </li>
+        <li>
+          javaTpoint. (2022). What is Bootstrap - javaTpoint. Obtenido de
+          javaTpoint: https://www.javatpoint.com/what-is-bootstrap
+        </li>
+        <li>
+          VueJS. (2022). Instalación - Vue.js. Obtenido de Vue.js:
+          https://es.vuejs.org/v2/guide/installation.html
+        </li>
       </ul>
-
     </b-container>
   </div>
 </template>

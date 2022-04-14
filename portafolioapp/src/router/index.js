@@ -13,6 +13,12 @@ import SemanaDosView from '../views/investigations/SemanaDosView.vue'
 import SemanaTresView from '../views/investigations/SemanaTresView.vue'
 import SemanaCuatroView from '../views/investigations/SemanaCuatroView.vue'
 import SemanaCincoView from '../views/investigations/SemanaCincoView.vue'
+import SemanaSieteView from '../views/investigations/SemanaSieteView.vue'
+import SemanaOchoView from '../views/investigations/SemanaOchoView.vue'
+import SemanaNueveView from '../views/investigations/SemanaNueveView.vue'
+import SemanaDiezView from '../views/investigations/SemanaDiezView.vue'
+import SemanaOnceView from '../views/investigations/SemanaOnceView.vue'
+import SemanaDoceView from '../views/investigations/SemanaDoceView.vue'
 
 Vue.use(VueRouter)
 
@@ -69,19 +75,49 @@ const routes = [
     component: SemanaDosView
   },
   {
-    path:"/investigaciones/clasesestilostiemporeal",
+    path: "/investigaciones/clasesestilostiemporeal",
     name: "clasesestilostiemporeal",
     component: SemanaTresView
   },
   {
-    path:"/investigaciones/componentes",
+    path: "/investigaciones/componentes",
     name: "componentes",
     component: SemanaCuatroView
   },
   {
-    path:"/investigaciones/comunicacioncomponentes",
+    path: "/investigaciones/comunicacioncomponentes",
     name: "comunicacioncomponentes",
     component: SemanaCincoView
+  },
+  {
+    path: "/investigaciones/desarrollophp",
+    name: "desarrollophp",
+    component: SemanaSieteView
+  },
+  {
+    path: "/investigaciones/introduccionlaravel",
+    name: "introduccionlaravel",
+    component: SemanaOchoView
+  },
+  {
+    path: "/investigaciones/crudlaravel",
+    name: "crudlaravel",
+    component: SemanaNueveView
+  },
+  {
+    path: "/investigaciones/laravelrutascontroladores",
+    name: "laravelrutascontroladores",
+    component: SemanaDiezView
+  },
+  {
+    path: "/investigaciones/validacionlaravel",
+    name: "validacionlaravel",
+    component: SemanaOnceView
+  },
+  {
+    path: "/investigaciones/apilaravel",
+    name: "apilaravel",
+    component: SemanaDoceView
   }
 ];
 
