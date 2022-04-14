@@ -19,6 +19,7 @@ import SemanaNueveView from '../views/investigations/SemanaNueveView.vue'
 import SemanaDiezView from '../views/investigations/SemanaDiezView.vue'
 import SemanaOnceView from '../views/investigations/SemanaOnceView.vue'
 import SemanaDoceView from '../views/investigations/SemanaDoceView.vue'
+import PracticasView from '../views/PracticasView.vue'
 
 Vue.use(VueRouter)
 
@@ -118,6 +119,11 @@ const routes = [
     path: "/investigaciones/apilaravel",
     name: "apilaravel",
     component: SemanaDoceView
+  },
+  {
+    path: "/practicas",
+    name: "practicas",
+    component: PracticasView
   }
 ];
 

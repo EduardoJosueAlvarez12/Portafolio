@@ -207,68 +207,6 @@
             </b-collapse>
           </div>
 
-          <!-- collapse button Prácticas -->
-          <div>
-            <b-button
-              v-b-toggle.collapse-5
-              class="w-100 btn btn-light"
-              style="text-align: left"
-              >Prácticas desarrolladas
-              <div style="float: right">
-                <b-icon icon="caret-down"></b-icon>
-              </div>
-            </b-button>
-
-            <b-collapse id="collapse-5">
-              <b-list-group>
-                <b-list-group-item
-                  class="border-0 bg-light"
-                  style="color: #000000; text-align: center"
-                  >Cómputo I</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S1 - Introducción a las librerías (Bootstrap y
-                  Vue)</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S2 - Rendering y directivas</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S3 - Clases y estilos en tiempo real</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S4 - Componentes</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S5 - Comunicación entre componentes</b-list-group-item
-                >
-                <b-list-group-item
-                  class="border-0 bg-light"
-                  style="color: #000000; text-align: center"
-                  >Cómputo II</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S7 - Introducción al desarrollo con PHP</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S8 - Introducción a Laravel</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S9 - CRUD con Laravel</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S10 -Sistema de rutas y controladores</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S11 - Validación de datos</b-list-group-item
-                >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >S12 - REST API con Laravel</b-list-group-item
-                >
-              </b-list-group>
-            </b-collapse>
-          </div>
-
           <!-- collapse button Laboratorios -->
           <div>
             <b-button
@@ -335,10 +273,10 @@
                   style="color: #000000; text-align: center"
                   >Individuales</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/practicas"
                   >Prácticas Semanales</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/"
                   >Portafolio
                 </b-list-group-item>
 
@@ -362,6 +300,11 @@
               </b-list-group>
             </b-collapse>
           </div>
+
+          <!-- button Prácticas -->
+          <b-button class="w-100 btn btn-light" to="/practicas" style="text-align: left"
+            >Prácticas Semanales</b-button
+          >
 
           <b-button class="w-100 btn btn-light" to="/materialesapoyo" style="text-align: left"
             >Materiales de apoyo</b-button
