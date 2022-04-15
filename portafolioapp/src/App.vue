@@ -226,11 +226,11 @@
                   style="color: #000000; text-align: center"
                   >Cómputo I</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >Introducción a JavaScript (Laboratorio I -
+                <b-list-group-item class="border-0 bg-light" to="/labs/bootstrapdirectivaslaravel"
+                  >Bootstrap y Directivas Laravel (Laboratorio I -
                   100%)</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/vuecomponents"
                   >Componentes (Laboratorio II - 100%)</b-list-group-item
                 >
                 <b-list-group-item
@@ -238,16 +238,16 @@
                   style="color: #000000; text-align: center"
                   >Cómputo II</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/crudlaravel"
                   >CRUD Laravel (Laboratorio I - 50%)</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/practicas"
                   >Prácticas Semanales (Laboratorio I - 50%)</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/validacionlaravel"
                   >Validación de datos (Laboratorio II - 50%)</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/"
                   >Portafolio (Laboratorio II - 50%)</b-list-group-item
                 >
               </b-list-group>
@@ -285,17 +285,20 @@
                   style="color: #000000; text-align: center"
                   >Grupales</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
-                  >Primeros pasos con JavaScript</b-list-group-item
+                <b-list-group-item class="border-0 bg-light" to="/labs/bootstrapdirectivaslaravel"
+                  >Directivas Laravel y Bootstrap</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/vuecomponents"
                   >Componentes En Vue</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/crudlaravel"
                   >CRUD Laravel</b-list-group-item
                 >
-                <b-list-group-item class="border-0 bg-light" href="#"
+                <b-list-group-item class="border-0 bg-light" to="/labs/validacionlaravel"
                   >Validación de datos</b-list-group-item
+                >
+                <b-list-group-item class="border-0 bg-light" to="/sitiovuesalud"
+                  >Sitio web Vue.js completo</b-list-group-item
                 >
               </b-list-group>
             </b-collapse>

@@ -20,6 +20,11 @@ import SemanaDiezView from '../views/investigations/SemanaDiezView.vue'
 import SemanaOnceView from '../views/investigations/SemanaOnceView.vue'
 import SemanaDoceView from '../views/investigations/SemanaDoceView.vue'
 import PracticasView from '../views/PracticasView.vue'
+import LabJavascriptView from '../views/labs/LabJavascriptView.vue'
+import LabVueView from '../views/labs/LabVueView.vue'
+import LabLaravelCrudView from '../views/labs/LabLaravelCrudView.vue'
+import LabLaravelValidacionView from '../views/labs/LabLaravelValidacionView.vue'
+import ParcialUnoView from '../views/ParcialUnoView.vue'
 
 Vue.use(VueRouter)
 
@@ -124,6 +129,32 @@ const routes = [
     path: "/practicas",
     name: "practicas",
     component: PracticasView
+  },
+  //enlaces a los laboratorios
+  {
+    path: "/labs/bootstrapdirectivaslaravel",
+    name: "bootstrap",
+    component: LabJavascriptView
+  },
+  {
+    path: "/labs/vuecomponents",
+    name: "vuecomponents",
+    component: LabVueView
+  },
+  {
+    path: "/labs/crudlaravel",
+    name: "crudlaravel",
+    component: LabLaravelCrudView
+  },
+  {
+    path: "/labs/validacionlaravel",
+    name: "validacionlaravel",
+    component: LabLaravelValidacionView
+  },
+  {
+    path: "/sitiovuesalud",
+    name: "sitiovuesalud",
+    component: ParcialUnoView
   }
 ];
 
