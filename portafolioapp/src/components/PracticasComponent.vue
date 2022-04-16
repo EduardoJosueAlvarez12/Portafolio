@@ -37,7 +37,7 @@
 
             <b-carousel-slide img-src="https://i.imgur.com/x2OOdVw.png">
               <h1 style="color: black; font-family: Helvetica, sans serif">
-                Práctica Semana 1 - Introducción y Bootstrap
+                Práctica Semana 1 - Introducción a Bootstrap
               </h1>
               <a
                 href="https://github.com/EduardoJosueAlvarez12/introduccionBootstrap"
@@ -96,8 +96,8 @@
               <h1 style="font-family: Helvetica, sans serif">Cómputo II</h1>
             </b-carousel-slide>
 
-            <b-carousel-slide img-blank style="background-color:black">
-              <h1 style="color: white; font-family: Helvetica, sans serif">
+            <b-carousel-slide img-src="https://i.imgur.com/MmkHE9M.png">
+              <h1 style="color: black; font-family: Helvetica, sans serif">
                 Práctica Semana 7 - Introducción a PHP
               </h1>
               <a
