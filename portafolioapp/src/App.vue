@@ -84,7 +84,7 @@
           <h5>Bítacora de aprendizajes</h5>
 
           <!-- collapse button Tareas -->
-          <div>
+          <!-- <div>
             <b-button
               v-b-toggle.collapse-3
               class="w-100 btn btn-light"
@@ -143,7 +143,7 @@
                 >
               </b-list-group>
             </b-collapse>
-          </div>
+          </div> -->
 
           <!-- collapse button Investigaciones -->
           <div>

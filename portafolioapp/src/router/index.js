@@ -25,6 +25,7 @@ import LabVueView from '../views/labs/LabVueView.vue'
 import LabLaravelCrudView from '../views/labs/LabLaravelCrudView.vue'
 import LabLaravelValidacionView from '../views/labs/LabLaravelValidacionView.vue'
 import ParcialUnoView from '../views/ParcialUnoView.vue'
+import ConclusionsView from '../views/ConclusionsView.vue'
 
 Vue.use(VueRouter)
 
@@ -155,6 +156,11 @@ const routes = [
     path: "/sitiovuesalud",
     name: "sitiovuesalud",
     component: ParcialUnoView
+  },
+  {
+    path: "/conclusiones",
+    name: "conclusiones",
+    component: ConclusionsView
   }
 ];
 

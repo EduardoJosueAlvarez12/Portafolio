@@ -1,6 +1,5 @@
 <template>
     <div id="contenido">
-        <h1>Material de Apoyo</h1>
         <material-apoyo-component/>
     </div>
 </template>
