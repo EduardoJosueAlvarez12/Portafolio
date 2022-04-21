@@ -95,7 +95,7 @@
                 <b-card-text>
                   <ul>
                     <li>
-                      Trabajar con la arquiteutura de componentes en Vue.js.
+                      Trabajar con la arquitectura de componentes en Vue.js.
                     </li>
                     <li>
                       Desarrollo de aplicaciones web de una página haciendo uso
